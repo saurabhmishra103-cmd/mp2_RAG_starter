@@ -1,0 +1,42 @@
+ Validating 2 questions from predefined_questions.jsonl…
+
+  ✓ q1_red_headed_league_assistant
+      Q: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+      Cited: 01_red_headed_league.txt
+      Expected: 01_red_headed_league.txt
+      Facts matched: 1/5
+      Latency: 3463ms
+
+  ✓ q2_speckled_band_murder_weapon
+      Q: What killed Julia Stoner at Stoke Moran, and how was the method discovered?
+      Cited: 02_speckled_band.txt
+      Expected: 02_speckled_band.txt
+      Facts matched: 3/6
+      Latency: 2767ms
+
+  Source-match: 2/2
+
+  Validating 3 questions from learner_questions.jsonl…
+
+  ✓ q4_engineers_thumb_motive
+      Q: Where did Colonel Stark trap Victor Hatherley and why did he do it?
+      Cited: 04_engineers_thumb.txt
+      Expected: 04_engineers_thumb.txt
+      Facts matched: 0/3
+      Latency: 2331ms
+
+  ✓ q3_scandal_in_bohemia
+      Q: How did Irene Adler prevent Sherlock Holmes from finding the photograph of her and the King of Bohemia?
+      Cited: 05_scandal_in_bohemia.txt
+      Expected: 05_scandal_in_bohemia.txt
+      Facts matched: 2/4
+      Latency: 2672ms
+
+  ✓ q5_blue_carbuncle_trace
+      Q: How was the Blue Carbuncle traced to James Ryder?
+      Cited: 03_blue_carbuncle.txt
+      Expected: 03_blue_carbuncle.txt
+      Facts matched: 0/4
+      Latency: 2242ms
+
+  Source-match: 3/3
