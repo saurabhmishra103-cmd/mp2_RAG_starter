@@ -1,9 +1,6 @@
 from __future__ import annotations
 
 import json
-import asyncio
-import os
-import re
 import sys
 import time
 import uuid
@@ -258,8 +255,6 @@ def retrieve(query: str, k: int = 3) -> list[dict[str, Any]]:
         logger.error(f"Error retrieving chunks from Qdrant: {e}")
         raise
 
-    # raise NotImplementedError("Implement retrieve")
-
 
 # ─── Step 7: Generate the answer ────────────────────────────────────────
 
@@ -340,7 +335,6 @@ def answer(question: str, k: int = 3) -> dict[str, Any]:
     except Exception as e:
         logger.error(f"Error generating answer: {e}")
         raise
-    # raise NotImplementedError("Implement answer")
 
 
 # ─── Validation harness (provided — do not modify) ──────────────────────
